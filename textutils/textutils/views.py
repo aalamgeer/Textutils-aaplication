@@ -7,14 +7,16 @@ def index(request):
     return render(request, 'index.html', context)
 
 
-def removepunc(request):
+def analyzer(request):
     print(request.GET.get('text'))
-    data = request.POST.get('text')
-    print(data)
-    return HttpResponse("Remove punctuation")
+    data = request.GET.get('text')
+    removepunc = request.POST.get('removepunc', 'off')
+    analyzed = data
+    context = {'purpose': 'Remove Punctuations', 'analyzed_text': analyzed}
+    return render(request, 'analyze.html', context)
 
 
-def capitalize(request):
+'''def capitalize(request):
     return HttpResponse("Capitalize first character")
 
 
@@ -27,4 +29,4 @@ def spaceremove(request):
 
 
 def charcount(request):
-    return HttpResponse("Count all character ")
+    return HttpResponse("Count all character ")'''
