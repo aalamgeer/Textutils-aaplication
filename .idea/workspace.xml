@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49c3491f-0805-46d4-85e7-a7d626f18006" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/textutils/templates/analyze.html" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/templates/analyze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textutils/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textutils/textutils/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/textutils/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +32,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="688" />
+          <entry key="html" value="776" />
           <entry key="py" value="1731" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="688" />
+          <entry key="HTML" value="776" />
           <entry key="Python" value="1731" />
         </counts>
       </usages-collector>
@@ -60,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/textutils/textutils/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="307">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <marker date="1555347753028" expanded="true" signature="94:99" ph="..." />
@@ -78,8 +76,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/textutils/templates/analyze.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="286">
+              <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+              <folding>
+                <element signature="e#3379#3386#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/textutils/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+              <caret line="98" column="39" selection-end-line="107" selection-end-column="7" />
               <folding>
                 <element signature="e#3125#3132#1" expanded="true" />
               </folding>
@@ -123,13 +124,13 @@
         <option value="$PROJECT_DIR$/textutils/textutils/view.py" />
         <option value="$PROJECT_DIR$/textutils/textutils/settings.py" />
         <option value="$PROJECT_DIR$/textutils/textutils/urls.py" />
-        <option value="$PROJECT_DIR$/textutils/templates/analyze.html" />
         <option value="$PROJECT_DIR$/textutils/textutils/views.py" />
         <option value="$PROJECT_DIR$/textutils/templates/index.html" />
+        <option value="$PROJECT_DIR$/textutils/templates/analyze.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -190,11 +191,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25225225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
@@ -259,32 +260,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/textutils/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="98" column="39" selection-end-line="107" selection-end-column="7" />
+          <folding>
+            <element signature="e#3125#3132#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/textutils/templates/analyze.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="286">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <element signature="e#3379#3386#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/textutils/textutils/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="307">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <marker date="1555347753028" expanded="true" signature="94:99" ph="..." />
             <marker date="1555347753028" expanded="true" signature="873:874" ph="..." />
             <marker date="1555347753028" expanded="true" signature="873:1685" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textutils/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-          <folding>
-            <element signature="e#3125#3132#1" expanded="true" />
           </folding>
         </state>
       </provider>
