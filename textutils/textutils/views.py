@@ -8,11 +8,11 @@ def index(request):
 
 
 def analyzer(request):
-    data = request.GET.get('text', 'default')
-    removepunc = request.GET.get('removepunc', 'off')
-    capitalize = request.GET.get('capitalize', 'off')
-    fullcaps = request.GET.get('fullcaps', 'off')
-    newlineremove = request.GET.get('newlineremove', 'off')
+    data = request.POST.get('text', 'default')
+    removepunc = request.POST.get('removepunc', 'off')
+    capitalize = request.POST.get('capitalize', 'off')
+    fullcaps = request.POST.get('fullcaps', 'off')
+    newlineremove = request.POST.get('newlineremove', 'off')
     analyzed = ''
     count = 0
     for chr in data:
@@ -24,23 +24,28 @@ def analyzer(request):
             if chr not in punctuations:
                 analyzed = analyzed + chr
         context = {'purpose': 'Remove Punctuations', 'analyzed_text': analyzed, 'no_of_a': count}
-        return render(request, 'analyze.html', context)
-    elif capitalize == 'on':
+        #return render(request, 'analyze.html', context)
+        data = analyzed
+    if capitalize == 'on':
         analyzed = data.capitalize()
         context = {'purpose': 'Capitalize first', 'analyzed_text': analyzed, 'no_of_a': count}
-        return render(request, 'analyze.html', context)
-    elif fullcaps == 'on':
+        #return render(request, 'analyze.html', context)
+        data = analyzed
+    if fullcaps == 'on':
         analyzed = data.upper()
         context = {'purpose': 'Capitalize String', 'analyzed_text': analyzed, 'no_of_a': count}
-        return render(request, 'analyze.html', context)
-    elif newlineremove == 'on':
+        #return render(request, 'analyze.html', context)
+        data = analyzed
+    if newlineremove == 'on':
         for chr in data:
             if chr != '\n':
                 analyzed = analyzed + chr
         context = {'purpose': 'New line remover', 'analyzed_text': analyzed, 'no_of_a': count}
-        return render(request, 'analyze.html', context)
-    else:
+        #return render(request, 'analyze.html', context)
+        data = analyzed
+    elif(newlineremove != 'on' and fullcaps != 'on' and capitalize != 'on' and removepunc != 'on'):
         return HttpResponse('Error')
+    return render(request, 'analyze.html', context)
 
 
 '''def capitalize(request):

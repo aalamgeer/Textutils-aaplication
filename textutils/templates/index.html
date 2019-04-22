@@ -75,7 +75,8 @@ facebook link <a href={{facebook}}>Click here for facebook</a>
   </button>
 </div>
     <div class="container">
-        <form action="/analyzer" method="get">
+        <form action="/analyzer" method="post">
+            {% csrf_token %}
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Enter your text here for clean-up</label>
             <textarea name="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
