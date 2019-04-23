@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49c3491f-0805-46d4-85e7-a7d626f18006" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/textutils/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textutils/textutils/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/textutils/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="49c3491f-0805-46d4-85e7-a7d626f18006" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,87 +19,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="800" />
-          <entry key="py" value="1846" />
+          <entry key="py" value="1875" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="800" />
-          <entry key="Python" value="1846" />
+          <entry key="Python" value="1875" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textutils/textutils/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding>
-                <element signature="e#633#665#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/textutils/textutils/views.py">
+        <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <marker date="1555524142105" expanded="true" signature="94:99" ph="..." />
-                <marker date="1555524142105" expanded="true" signature="878:879" ph="..." />
-                <marker date="1555524142105" expanded="true" signature="878:1926" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textutils/templates/analyze.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-              <folding>
-                <element signature="e#3379#3386#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textutils/textutils/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textutils/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-              <folding>
-                <element signature="e#3125#3132#1" expanded="true" />
-              </folding>
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -128,10 +74,11 @@
         <option value="$PROJECT_DIR$/textutils/templates/analyze.html" />
         <option value="$PROJECT_DIR$/textutils/templates/index.html" />
         <option value="$PROJECT_DIR$/textutils/textutils/views.py" />
+        <option value="$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -154,7 +101,13 @@
             <path>
               <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
-              <item name="textutils" type="462c0819:PsiDirectoryNode" />
+              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,15 +145,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1370" height="754" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25225225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25225225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -246,10 +199,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/textutils/textutils/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="226">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textutils/textutils/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1555524142105" expanded="true" signature="94:99" ph="..." />
+            <marker date="1555524142105" expanded="true" signature="878:879" ph="..." />
+            <marker date="1555524142105" expanded="true" signature="878:1926" ph="..." />
           </folding>
         </state>
       </provider>
@@ -258,16 +224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textutils/templates/analyze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-          <folding>
-            <element signature="e#3379#3386#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -281,16 +237,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textutils/textutils/views.py">
+    <entry file="file://$PROJECT_DIR$/textutils/templates/analyze.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state relative-caret-position="218">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1555524142105" expanded="true" signature="94:99" ph="..." />
-            <marker date="1555524142105" expanded="true" signature="878:879" ph="..." />
-            <marker date="1555524142105" expanded="true" signature="878:1926" ph="..." />
+            <element signature="e#3379#3386#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
