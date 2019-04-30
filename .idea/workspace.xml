@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c3491f-0805-46d4-85e7-a7d626f18006" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/blog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce/nicebuy/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/nicebuy/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce/nicebuy/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/nicebuy/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/nicebuy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/nicebuy/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/nicebuy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/nicebuy/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +19,14 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="5" />
-          <entry key="py" value="12" />
+          <entry key="py" value="14" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -37,21 +34,21 @@
         <counts>
           <entry key="HTML" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="993" />
-          <entry key="py" value="2685" />
+          <entry key="html" value="997" />
+          <entry key="py" value="2906" />
           <entry key="txt" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="993" />
+          <entry key="HTML" value="997" />
           <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="2685" />
+          <entry key="Python" value="2906" />
         </counts>
       </usages-collector>
     </session>
@@ -61,21 +58,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="2244">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="190">
+              <caret line="24" selection-start-line="24" selection-end-line="25" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1556216816063" expanded="true" signature="119:124" ph="..." />
-                <marker date="1556216816063" expanded="true" signature="190:615" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <marker date="1556645514784" expanded="true" signature="86:250" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="340">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -105,20 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ecommerce/blog/templates/blog/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="16" column="132" selection-start-line="16" selection-start-column="132" selection-end-line="16" selection-end-column="132" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="307">
+              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -126,11 +137,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ecommerce/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="51">
               <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="45" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1556214229962" expanded="true" signature="119:166" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ecommerce/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="34">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -172,7 +182,6 @@
         <option value="$PROJECT_DIR$/textutils/textutils/views.py" />
         <option value="$PROJECT_DIR$/Ecommerce/Ecommerce/__init__.py" />
         <option value="$PROJECT_DIR$/Ecommerce/blog/urls.py" />
-        <option value="$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html" />
         <option value="$PROJECT_DIR$/Ecommerce/blog/views.py" />
         <option value="$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py" />
         <option value="$PROJECT_DIR$/Ecommerce/blog/static/blog/bogtextfile.txt" />
@@ -180,10 +189,13 @@
         <option value="$PROJECT_DIR$/Ecommerce/Ecommerce/urls.py" />
         <option value="$PROJECT_DIR$/Ecommerce/nicebuy/urls.py" />
         <option value="$PROJECT_DIR$/Ecommerce/nicebuy/views.py" />
+        <option value="$PROJECT_DIR$/Ecommerce/nicebuy/models.py" />
+        <option value="$PROJECT_DIR$/Ecommerce/nicebuy/admin.py" />
+        <option value="$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -195,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,34 +224,6 @@
               <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
               <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
-              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
-              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
-              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
-              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
               <item name="nicebuy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,12 +232,19 @@
               <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
               <item name="nicebuy" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="nicebuy" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="nicebuy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,8 +278,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25225225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25225225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -298,7 +291,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -372,61 +365,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1556214229962" expanded="true" signature="119:166" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/static/blog/bogtextfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/static/blog/bogtextfile.txt" />
     <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/templates/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="16" column="132" selection-start-line="16" selection-start-column="132" selection-end-line="16" selection-end-column="132" />
+        <state relative-caret-position="2244">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="132" selection-start-line="16" selection-start-column="132" selection-end-line="16" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -443,13 +422,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="190">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1556216816063" expanded="true" signature="119:124" ph="..." />
-            <marker date="1556216816063" expanded="true" signature="190:615" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1556645514784" expanded="true" signature="86:250" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
         </state>
       </provider>
     </entry>
