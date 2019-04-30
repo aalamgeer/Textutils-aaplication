@@ -1,0 +1,1 @@
+This is my blog txt file for testing of static file
