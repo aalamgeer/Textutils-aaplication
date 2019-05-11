@@ -7,7 +7,7 @@ def index(request):
 
 
 def about(request):
-    return render (request, 'nicebuy/index.html')
+    return render (request, 'nicebuy/about.html')
 
 
 def contact(request):
