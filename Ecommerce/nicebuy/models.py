@@ -10,7 +10,7 @@ class Product(models.Model):
     price = models.IntegerField(default=0)
     desc = models.CharField(max_length=300, null=True)
     pub_date = models.DateField(null=True)
-    image = models.ImageField(max_length=50, null=True)
+    image = models.ImageField(upload_to='nicebuy/images', default="")
 
     def __str__(self):
         return self.product_name
