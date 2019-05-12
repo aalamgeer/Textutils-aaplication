@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c3491f-0805-46d4-85e7-a7d626f18006" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/Ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/Ecommerce/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/media/20150313_093825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/media/20150316_093809.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/nicebuy/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/nicebuy/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/vlcsnap-2014-05-20-10h25m35s135.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1813" />
+          <entry key="html" value="1866" />
           <entry key="py" value="3609" />
           <entry key="txt" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1813" />
+          <entry key="HTML" value="1866" />
           <entry key="PLAIN_TEXT" value="51" />
           <entry key="Python" value="3609" />
         </counts>
@@ -66,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -121,10 +115,12 @@
         <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -235,6 +231,14 @@
               <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="nicebuy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangocourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangocourse" type="462c0819:PsiDirectoryNode" />
+              <item name="Ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="nicebuy" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -482,7 +486,7 @@
     <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
@@ -510,17 +514,19 @@
     <entry file="file://$PROJECT_DIR$/Ecommerce/Ecommerce/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ecommerce/nicebuy/templates/nicebuy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
