@@ -9,7 +9,10 @@ def index(request):
     print(product)
     n = len(product)
     nslides = n//4 + ceil((n/4)-(n//4))
-    prams = {"noSlides": nslides, "range": range(nslides), "product": product}
+    #prams = {"noSlides": nslides, "range": range(nslides), "product": product}
+    allprod = [[product, range(1, len(product)), nslides],
+               [product, range(1, len(product)), nslides]]
+    prams = {'allprod': allprod}
     return render(request, 'nicebuy/index.html', prams)
 
 
