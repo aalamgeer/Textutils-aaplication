@@ -5,13 +5,21 @@ from math import ceil
 
 # Create your views here.
 def index(request):
-    product = Product.objects.all()
-    print(product)
-    n = len(product)
-    nslides = n//4 + ceil((n/4)-(n//4))
-    #prams = {"noSlides": nslides, "range": range(nslides), "product": product}
-    allprod = [[product, range(1, len(product)), nslides],
-               [product, range(1, len(product)), nslides]]
+    #product = Product.objects.all()
+    #n = len(product)
+    #nslides = n//4 + ceil((n/4)-(n//4))
+    allprod = []
+    cateprod = Product.objects.values('category', 'id')
+    cats = {item['category'] for item in cateprod}
+    for cat in cats:
+        prod = Product.objects.filter(category=cat)
+        n = len(prod)
+        nslides = n//4 + ceil((n/4)-(n//4))
+        allprod.append([prod, range(1,nslides), nslides])
+    # params = {'no_of_slides':nSlides, 'range': range(1,nSlides),'product': products}
+    # allProds = [[products, range(1, nSlides), nSlides],
+    #             [products, range(1, nSlides), nSlides]]
+
     prams = {'allprod': allprod}
     return render(request, 'nicebuy/index.html', prams)
 
