@@ -8,19 +8,19 @@ def index(request):
     #product = Product.objects.all()
     #n = len(product)
     #nslides = n//4 + ceil((n/4)-(n//4))
-    allprod = []
+    allProds = []
     cateprod = Product.objects.values('category', 'id')
     cats = {item['category'] for item in cateprod}
     for cat in cats:
         prod = Product.objects.filter(category=cat)
         n = len(prod)
         nslides = n//4 + ceil((n/4)-(n//4))
-        allprod.append([prod, range(1,nslides), nslides])
+        allProds.append([prod, range(1,nslides), nslides])
     # params = {'no_of_slides':nSlides, 'range': range(1,nSlides),'product': products}
     # allProds = [[products, range(1, nSlides), nSlides],
     #             [products, range(1, nSlides), nSlides]]
 
-    prams = {'allprod': allprod}
+    prams = {'allProds': allProds}
     return render(request, 'nicebuy/index.html', prams)
 
 
