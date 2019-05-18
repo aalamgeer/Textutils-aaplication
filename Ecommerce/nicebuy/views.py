@@ -29,19 +29,22 @@ def about(request):
 
 
 def contact(request):
-    return render (request, 'nicebuy/index.html')
+    return render (request, 'nicebuy/contact.html')
 
 
 def tracker(request):
-    return render (request, 'nicebuy/index.html')
+    return render (request, 'nicebuy/tracker.html')
 
 
 def search(request):
-    return render (request, 'nicebuy/index.html')
+    return render (request, 'nicebuy/search.html')
 
 
-def productView(request):
-    return render (request, 'nicebuy/index.html')
+def productView(request, prodId):
+    #get product using view
+    product = Product.objects.filter(id=prodId)
+    print(product)
+    return render (request, 'nicebuy/productview.html', { "product" :product } )
 
 
 def checkout(request):
