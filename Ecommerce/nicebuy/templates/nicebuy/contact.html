@@ -1,4 +1,66 @@
 {% extends 'nicebuy/base.html' %}
 
 {% block title %} Title of contact us {% endblock %}
-{% block body %} This is contact body {% endblock %}
+{% block body %}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-2">
+            <div class="container mx-4 mb-4">
+            <h2>Contact me!</h2>
+            <form action="/nicebuy/contact/" method='post'>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="Enter your Name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your Email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Your Phone Number (with country code)</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Enter your Phone Number" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="description">Describe what you want to contact me for here</label>
+                    <textarea type="text" class="form-control" id="description" placeholder="Description" name="description"></textarea>
+                </div>
+                {% csrf_token %}
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
+        </div>
+        <hr>
+        <!-- Blog Sidebar Widgets Column -->
+        <div class="col-lg-4 col-md-12 my-3">
+            <div class="container-fluid">
+                <div class="col-md-8">
+            <form action="/search" method='get'>
+
+                <h2>Search</h2>
+                <div >
+                    <input type="text" name='query' class="form-control">
+
+                            <button type='submit' class="btn btn-danger mt-2 " type="button">Search
+
+                    </button>
+
+                </div>
+
+                <!-- /.input-group -->
+
+        </form>
+
+<h4>Subscribe To Our YouTube Channels</h4>
+                <div class="g-ytsubscribe" data-channelid="UCeVMnSShP_Iviwkknt83cww" data-layout="full" data-count="default"></div><br>
+                <div class="g-ytsubscribe" data-channelid="UCa5UDzFzpIjJ1VSxCSlQP_g" data-layout="full" data-count="default"></div>
+
+</div>
+          </div>
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
